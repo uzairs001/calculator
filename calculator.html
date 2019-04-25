@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="mid">
+        <h1>Simple Calculator</h1>
+        <form name="calculator">
+            <input class="form-control" type="text" name="screen"><br><br>
+            <input  id="btn" class="btn btn-primary " type="button" name="btn9" value="9" onclick="btnFunction(9)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn8" value="8" onclick="btnFunction(8)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn7" value="7" onclick="btnFunction(7)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn6" value="6" onclick="btnFunction(6)"><br>
+            <input id="btn" class="btn btn-primary" type="button" name="btn5" value="5" onclick="btnFunction(5)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn4" value="4" onclick="btnFunction(4)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn3" value="3" onclick="btnFunction(3)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn2" value="2" onclick="btnFunction(2)"><br>
+            <input id="btn" class="btn btn-primary" type="button" name="btn1" value="1" onclick="btnFunction(1)">
+            <input id="btn" class="btn btn-primary" type="button" name="btn0" value="0" onclick="btnFunction(0)">
+            <input id="btn" class="btn btn-primary" type="button" name="btnAdd" value="+" onclick="btnFunction(btnAdd.value)">
+            <input id="btn" class="btn btn-primary" type="button" name="btnSub" value="-" onclick="btnFunction(btnSub.value)"><br>
+            <input id="btn" class="btn btn-primary" type="button" name="btnMul" value="*" onclick="btnFunction(btnMul.value)">
+            <input id="btn" class="btn btn-primary" type="button" name="btnDivide" value="/" onclick="btnFunction(btnDivide.value)">
+            <input id="btn" class="btn btn-primary" type="button" name="btnClear" value="clear" onclick="btnClearFunction()">
+            <input id="btn" class="btn btn-primary" type="button" name="btnBackspace" value=&#8592 onclick="btnBackspaceFunction()"><br>
+            <input id="btnn1" class="btn btn-primary" type="button" name="btnEqual" value="=" onclick="calculator.screen.value = eval(calculator.screen.value)">
+        
+        </form>
+
+    </div>
+ 
+    
+<script src="calculator.js"></script>
+
+
+</body>
+</html>

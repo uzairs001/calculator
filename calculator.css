@@ -1,0 +1,23 @@
+.mid {
+    margin: 5% 39% 0px 30%;
+    background-color: green;
+    
+}
+#btn{
+    width:100px;
+    height:50px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+#btnn1{
+    width:415px;
+    height:50px;
+   
+}
+.form-control{
+    width:50%;
+    background-color: #526298 !important;
+    color:#fff !important;
+    height:50px !important;
+    font-size: 20px !important;
+}
